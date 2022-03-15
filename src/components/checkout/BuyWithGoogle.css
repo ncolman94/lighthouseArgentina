@@ -1,0 +1,15 @@
+.detalleCarrito .productos .checkout .comprarComo p {
+  color: white;
+}
+
+.detalleCarrito .productos .checkout .comprarComo p label {
+  display: block;
+  margin: 0;
+  text-align: left;
+}
+
+.detalleCarrito .productos .checkout .comprarComo p span {
+  font-size: 1.25em;
+  text-align: left;
+  display: block;
+}

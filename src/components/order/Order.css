@@ -1,0 +1,109 @@
+.carrito {
+  text-align: right;
+}
+
+.carrito a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.carrito a img {
+  transition: 0.2s;
+}
+
+.carrito a:hover img {
+  transform: scale(1.25);
+}
+
+.carrito a span {
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 0.75em;
+}
+
+.detalleCarrito {
+  max-width: 800px;
+  width: 94%;
+  padding: 0 3% 75px 3%;
+  margin: 10px auto 50px auto;
+  background: #fff;
+}
+
+.detalleCarrito h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #000;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.verProductos,
+.limpiarCarrito {
+  background: #000;
+  border: 2px solid #000;
+  color: white;
+  font-weight: normal;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.limpiarCarrito {
+  font-size: 0.85em;
+}
+
+.verProductos:hover,
+.limpiarCarrito:hover {
+  color: #000;
+  background: transparent;
+}
+
+h2.orderID,
+.totalCarrito p {
+  font-size: 1.75em;
+  color: #000;
+  margin: 5px auto 15px auto;
+}
+
+h2.orderID span {
+  color: #000;
+  font-weight: normal;
+  font-style: italic;
+  position: relative;
+  top: -5px;
+}
+
+.viewOrder,
+.terminarCompra,
+.registrarCompra {
+  background: #000;
+  border: 2px solid #000;
+  color: white;
+  font-weight: normal;
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 1.15em;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 128px;
+}
+
+.viewOrder:hover,
+.terminarCompra:hover,
+.registrarCompra:hover {
+  color: #000;
+  background: transparent;
+}
+
+.detalleCarrito > input {
+  display: block;
+  width: 300px;
+  font-size: 1.5em;
+  margin: 25px auto;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 8px 25px;
+  border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+.favoritesList {
+  max-width: 800px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 25px 3% 115px 3%;
+  text-align: center;
+}
+
+.itemFavorito {
+  margin: 15px 2% 0 2%;
+  float: left;
+  width: 43%;
+  padding: 1%;
+  border: 1px solid black;
+  background: #000;
+}
+
+.itemFavorito .thumb {
+  float: left;
+}
+
+.itemFavorito .thumb img {
+  max-width: 64px;
+  transition: 0.2s;
+}
+
+.itemFavorito .thumb img:hover {
+  transform: scale(1.05);
+}
+
+.itemFavorito .info {
+  float: left;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.itemFavorito .info .titulo {
+  margin-top: 5px;
+  font-size: 1.25em;
+  color: #000;
+}
+
+.itemFavorito img.favoriteIcon {
+  width: 32px;
+  cursor: pointer;
+  color: #000;
+}

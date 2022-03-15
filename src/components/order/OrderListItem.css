@@ -1,0 +1,66 @@
+.orderListItem {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.orderListItem .elemTD {
+    float: left;
+    text-align: left;
+}
+
+.orderListItem .elemTD.codigo {
+    width: 240px;
+}
+
+.orderListItem .elemTD.thumbs {
+    width: 250px;
+}
+
+.orderListItem .elemTD.cantidad {
+    width: 128px;
+}
+
+.orderListItem .elemTD.fecha {
+    width: 128px;
+}
+
+.orderListItem .elemTD.fecha span {
+    font-size: 1.1em;
+}
+
+.orderListItem .elemTD.total {
+    width: 128px;
+}
+
+.orderListItem .elemTD.ver {
+    width: 128px;
+}
+
+.orderListItem .elemTD span {
+    display: block;
+    font-size: 1.25em;
+}
+
+.orderListItem .elemTD.codigo span {
+    color: #944c4c;
+}
+
+.orderListItem .elemTD img {
+    max-width: 64px;
+    margin-right: 10px;
+}
+
+.orderListItem .elemTD .viewDetail {
+    background: transparent;
+    margin-top: 15px;
+    border: 0;
+    color: red;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.orderListItem .elemTD .viewDetail:hover {
+    color: #944c4c;
+    font-weight: bold;
+}

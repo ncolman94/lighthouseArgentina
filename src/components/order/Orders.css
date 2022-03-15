@@ -1,0 +1,16 @@
+.ordenes {
+  max-width: 1024px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 25px 3% 115px 3%;
+  text-align: center;
+  background: #fff;
+}
+
+.ordenes h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #000000;
+  font-style: italic;
+  margin-top: 0;
+}

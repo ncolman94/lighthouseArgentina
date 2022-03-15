@@ -1,0 +1,61 @@
+nav {
+  max-width: 1024px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.logo a {
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+}
+
+.logo a:hover {
+  border-bottom: 1px solid #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  padding: 10px 25px;
+  border-bottom: 1px solid transparent;
+}
+
+ul li a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.current {
+  color: #fff;
+  background: #000;
+}
+
+ul li a.current:hover {
+  color: #fff;
+}
+
+.checkOrder,
+.favoriteIcon {
+  float: right;
+}
+
+.tresquintos > span {
+  color: #000;
+  font-style: italic;
+}
+
+ul li.favoriteIcon a.current {
+  margin-top: -16px;
+  display: block;
+}

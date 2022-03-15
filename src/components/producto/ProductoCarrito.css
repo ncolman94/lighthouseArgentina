@@ -1,0 +1,68 @@
+.productoCarrito {
+    clear: both;
+    margin: 10px auto 25px auto;
+}
+
+.productoCarrito>div {
+    float: left;
+    padding: 5px 10px;
+}
+
+.productoCarrito .thumb img {
+    max-width: 64px;
+    transition: 0.2s;
+}
+
+.productoCarrito .thumb img:hover {
+    transform: scale(1.05);
+}
+
+.productoCarrito .info {
+    width: 200px;
+}
+
+.productoCarrito .info .titulo {
+    margin-top: 5px;
+    font-size: 1.25em;
+    color: red;
+}
+
+.productoCarrito .precio {
+    margin-top: 5px;
+}
+
+.productoCarrito .cantidad {
+    margin-top: 5px;
+}
+
+.productoCarrito .subtotal {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.productoCarrito .cantidad.detalleOrden,
+.productoCarrito .subTotal.detalleOrden {
+    width: 150px;
+}
+
+.productoCarrito .accion {
+    margin-top: 12px;
+}
+
+.productoCarrito .accion .verDetalle,
+.productoCarrito .accion .quitarProducto {
+    background: red;
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.85em;
+    cursor: pointer;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.productoCarrito .accion .verDetalle:hover,
+.productoCarrito .accion .quitarProducto:hover {
+    background: black;
+    color: red;
+}

@@ -1,0 +1,26 @@
+.catalogo {
+  max-width: 1024px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 25px 3% 115px 3%;
+  text-align: center;
+}
+
+.catalogo h1 {
+  font-size: 2em;
+  color: #000;
+  margin-top: 0;
+}
+
+.loading {
+  margin-bottom: 50px;
+}
+
+.loading img {
+  max-width: 128px;
+}
+
+.loading p {
+  color: #000;
+  font-style: italic;
+}
